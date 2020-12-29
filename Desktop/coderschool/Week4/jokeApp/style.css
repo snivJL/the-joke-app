@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "Fontdiner Swanky";
+  src: url("FontdinerSwanky.woff2") format("woff2"),
+    url("FontdinerSwanky.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.card {
+  background-color: #fe5e52;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 500;
+  letter-spacing: 1.3px;
+  line-height: 4rem;
+  font-family: "Fontdiner Swanky";
+  font-weight: normal;
+  font-style: normal;
+}
+
+.left {
+  background-color: #92c8a8;
+}
+
+.right {
+  background-color: #c5ecac;
+}
+
+.color {
+  border-color: #777da6;
+  color: #777da6;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+
+  border-top: 10px solid white;
+}
+
+.invisible {
+  display: none;
+}
